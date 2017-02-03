@@ -2,10 +2,20 @@ body {
     background-color: #ECF0F1;
 }
 
+.thumbnail {
+   display: inline-block;
+}
+
 .img-logo {
     width: 150px;
     height: 70px;
     margin-left: -53px;
+}
+
+.img-box {
+   float: left;
+   width: 30%;
+   margin-left: -10px;
 }
 
 .logo {
@@ -15,7 +25,7 @@ body {
 
 .thumb-img {
     width: 300px;
-    height: 310px;
+    height: 280px;
 }
 
 #title {
@@ -57,6 +67,11 @@ body {
 
 .radio {
   padding: 7px;
+}
+
+.caption-h3 {
+   margin-top: 10%;
+   margin-bottom: -2%;
 }
 
 ::-webkit-input-placeholder {

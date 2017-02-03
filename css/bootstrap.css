@@ -5000,7 +5000,7 @@ a.badge:focus {
 }
 .thumbnail {
   display: block;
-  padding: 4px;
+  padding: 20px;
   margin-bottom: 20px;
   line-height: 1.42857143;
   background-color: #fff;
@@ -5021,7 +5021,8 @@ a.thumbnail.active {
   border-color: #2C3E50;
 }
 .thumbnail .caption {
-  padding: 9px;
+  padding: 0px;
+  margin-top: -15px;
   color: #2C3E50;
 }
 .alert {
