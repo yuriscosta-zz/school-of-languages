@@ -6,6 +6,26 @@ body {
    display: inline-block;
 }
 
+.menu-form {
+  float: left;
+}
+
+.menu-label {
+  color: white;
+  clear: both;
+  margin-top: 5%;
+}
+
+.div-form {
+  height: auto;
+}
+
+.mat {
+  float: left;
+  margin-top: 4%;
+  margin-left: 15%;
+}
+
 .img-logo {
     width: 150px;
     height: 70px;
@@ -43,9 +63,33 @@ body {
     bottom: 0;
 }
 
+#div-footer-sobre {
+  margin-top: 2%;
+}
+
+#div-footer-fale-conosco {
+  margin-top: 7%;
+}
+
+#div-footer-login {
+  margin-top: 22.2%;
+}
+
 .text {
-    text-align: justify;
-    font-size: 19px;
+  text-align: justify;
+  font-size: 19px;
+}
+
+.text-sobre {
+  margin-top: 2%;
+}
+
+.form-fale-conosco {
+  margin-top: 4%;
+}
+
+.form-login {
+  margin-top: 6%;
 }
 
 .formulario {
@@ -54,6 +98,10 @@ body {
 
 .formulario2 {
     margin-left: -50%;
+}
+
+.formulario3 {
+    margin-left: 26%;
 }
 
 .visualizar {
@@ -67,6 +115,20 @@ body {
 
 .radio {
   padding: 7px;
+}
+
+.btn-form {
+  width: 10%;
+}
+
+.a-btn-form {
+  text-decoration: none;
+  color: #333;
+}
+
+.a-btn-form:hover {
+  text-decoration: none;
+  color: #333;
 }
 
 .caption-h3 {

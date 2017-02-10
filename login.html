@@ -32,9 +32,9 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="professores.html">Professores</a></li>
-                        <li><a href="idiomas.html">Idiomas</a></li>
                         <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="professores.html">Professores</a></li>
+                        <li><a href="idiomas.html">Cursos</a></li>
                         <li><a href="fale_conosco.html">Fale Conosco</a></li>
                         <li  class="active"><a href="login.html">Login</a></li>
                     </ul>
@@ -46,66 +46,38 @@
            <h5><u class="breadcrumbs"><a href="index.html">Home</a> > <a href="login.html">Login</a></u></h5>
          </div>
 
-         <div class="container">
-             <h1 id="title">Login</h1>
-             <form class="form-horizontal formulario" role="form">
+         <div class="container form-login">
+             <form class="form-horizontal formulario3" role="form">
                  <div class="form-group">
                     <label class="control-label col-sm-2" for="mat">Matrícula:</label>
                     <div class="col-sm-4">
-                    <input type="number" class="form-control" id="mat" placeholder="exemplo: 122324" required>
+                    <input type="text" class="form-control" id="mat" placeholder="exemplo: 20116146554" required>
                     </div>
                 </div>
-
                 <div class="form-group">
-                   <label class="control-label col-sm-2" for="senha">Senha:</label>
-                   <div class="col-sm-4">
-                   <input type="password" class="form-control" id="senha" required>
-                   </div>
-               </div>
-
-               <div class="form-group">
-                  <label class="control-label col-sm-2" for="senha">Categoria:</label>
-                  <div class="col-sm-4">
-                      <div class="radio">
-                          <label><input type="radio" name="optradio">Gerência</label>
-                      </div>
-                      <div class="radio">
-                          <label><input type="radio" name="optradio">Administração</label>
-                      </div>
-                      <div class="radio">
-                          <label><input type="radio" name="optradio">Secretaria</label>
-                      </div>
-                      <div class="radio">
-                          <label><input type="radio" name="optradio">Docente</label>
-                      </div>
-                      <div class="radio disabled">
-                          <label><input type="radio" name="optradio">Monitor</label>
-                      </div>
-                      <div class="radio">
-                          <label><input type="radio" name="optradio">Funcionário comum</label>
-                      </div>
-                      <div class="radio">
-                          <label><input type="radio" name="optradio">Aluno</label>
-                      </div>
-                      <div class="radio">
-                          <label><input type="radio" name="optradio">Responsável</label>
-                      </div>
-
-                  </div>
-               </div>
+                    <label class="control-label col-sm-2" for="senha">Senha:</label>
+                    <div class="col-sm-4">
+                    <input type="password" class="form-control" id="senha" required>
+                    </div>
+                </div>
 
                 <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
-                    <button type="submit" class="btn btn-default">Enviar</button>
+                    <button type="submit" class="btn btn-default btn-form">Enviar</button>
+                    <button type="reset" class="btn btn-default btn-form">Limpar</button>
+                    <button type="button" class="btn btn-default btn-form"><a href="index.html" class="a-btn-form">Sair</a></button>
                     </div>
                 </div>
             </form>
+        </div>
 
+            <div id="div-footer-login">
             <footer class="footer">
                 <div class="container">
                     <p class="text-muted">Desenvolvido com <i class="glyphicon glyphicon-heart" aria-hidden="true"></i> por Yuri Sales e Nayara Soares </p>
                 </div>
             </footer>
+          </div>
         </div>
 
         <script src="js/jquery.js"></script>
