@@ -16,6 +16,22 @@ body {
   margin-top: 5%;
 }
 
+.enviar:hover {
+  background-color: #5BCC4A;
+}
+
+.sair:hover {
+  background-color: #D74B4B;
+}
+
+.enviar {
+  background-color: #72FF5C;
+}
+
+.sair {
+  background-color: #FF5359;
+}
+
 .div-form {
   height: auto;
 }
