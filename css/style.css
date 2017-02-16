@@ -48,6 +48,42 @@ body {
   margin-left: -10px;
 }
 
+#item1 {
+  width: 120px;
+  text-align: center;
+  background-color: #F2E868;
+}
+
+#item2 {
+  width: 120px;
+  text-align: center;
+  background-color: #DE5855;
+}
+
+#item3 {
+  width: 120px;
+  text-align: center;
+  background-color: #31E5A5;
+}
+
+#item4 {
+  width: 120px;
+  text-align: center;
+  background-color: #2E6B96;
+}
+
+#item5 {
+  width: 120px;
+  text-align: center;
+  background-color: #F58956;
+}
+
+#item6 {
+  width: 120px;
+  text-align: center;
+  background-color: #AE869D;
+}
+
 .img-title {
   width: 400px;
 }
