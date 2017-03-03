@@ -249,3 +249,23 @@ margin-top:40px;
 :-ms-input-placeholder {
    font-style: italic;
 }
+
+.submit {
+	background: #2ecc71;
+	color: white;
+}
+
+.submit:hover {
+	background: #27ae60;
+	color: #ecf0f1;
+}
+
+.reset {
+	background: #e74c3c;
+	color: white;
+}
+
+.reset:hover {
+	background: #c0392b;
+	color: #ecf0f1;
+}
