@@ -9,6 +9,7 @@
 
 
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 
@@ -40,29 +41,25 @@
     <div class="container">
       <div class="row">
               <!--LOGO-->
-              <div class="span3"><a class="brand" href="#"><img src="img/logo-icon.png"/></a></div>
+              <div class="span3"><a class="brand" href="index.html"><img src="img/logo-icon.png"/></a></div>
               <!-- /LOGO -->
 
               <!-- MAIN NAVIGATION -->
-                <div class="span9">
-                  <div class="navbar  pull-right">
+               <div class="span9">
+                  <div class="navbar pull-right">
                     <div class="navbar-inner">
                       <a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a>
                       <div class="nav-collapse collapse navbar-responsive-collapse">
                       <ul class="nav">
-                          <li><a href="index.html">Home</a></li>
-
-                          <li class="active"><a href="about.html">Sobre</a></li>
-
-                          <li><a href="service.html">Cursos</a></li>
-                          <li><a href="contact.html">Contato</a></li>
-
+                         <li id="li-home"><a href="index.html">Home</a></li>
+                         <li class="active" id="li-about"><a href="about.html">Sobre</a></li>
+                         <li id="li-service"><a href="service.html">Cursos</a></li>
+                         <li id="li-contact"><a href="contact.html">Contato</a></li>
                       </ul>
                     </div>
-
                     </div>
                   </div>
-                </div>
+               </div>
               <!-- MAIN NAVIGATION -->
       </div>
     </div>
@@ -81,9 +78,10 @@
 	<div class="row">
 		<div class="span12">
 		<div class="page-header">
-				<p>
-				   <a href="index.html">Home</a> / <a href="about.html">Sobre</a>
-				</p>
+      <ol class="breadcrumb">
+        <li><a href="index.html">Home</a></li> /
+        <li class="active">Sobre</li>
+      </ol>
 		</div>
 
 		</div>
@@ -95,9 +93,9 @@
 
 			<img class="pull-left" alt="" src="img/school.jpg" />
 
-      <p>O modelo de nossas aulas é dinâmica, preocupando-se com a necessidade de cada um, logo nossa metodologia se adapta ao nosso estilo de aluno. Mas sempre visando uma aprendizagem rápida e eficaz. Queremos que nossos alunos tenham domínio real do idioma estudado, aprendam a pensar, interpretar e falar em outra língua de uma forma prazerosa.</p>
-      <p>Por isso, na School of Languages trabalhamos com aulas individuais e personalizadas, as quais são desenvolvidas conforme a necessidade e o nível do aluno; além de aulas para pequenas turmas, de no máximo seis alunos, e grupos de conversação.</p>
-      <p>A fim de garantir a seriedade e comprometimento durante todo o processo de aprendizagem, contamos com profissionais habilitados para este trabalho, com didática para sala de aula, e além disso, que possuem certificação internacional.</p>
+      <p class="about-text">O modelo de nossas aulas é dinâmica, preocupando-se com a necessidade de cada um, logo nossa metodologia se adapta ao nosso estilo de aluno. Mas sempre visando uma aprendizagem rápida e eficaz. Queremos que nossos alunos tenham domínio real do idioma estudado, aprendam a pensar, interpretar e falar em outra língua de uma forma prazerosa.</p>
+      <p class="about-text">Por isso, na School of Languages trabalhamos com aulas individuais e personalizadas, as quais são desenvolvidas conforme a necessidade e o nível do aluno; além de aulas para pequenas turmas, de no máximo seis alunos, e grupos de conversação.</p>
+      <p class="about-text">A fim de garantir a seriedade e comprometimento durante todo o processo de aprendizagem, contamos com profissionais habilitados para este trabalho, com didática para sala de aula, e além disso, que possuem certificação internacional.</p>
 
 	  </div>
 	 </div>
@@ -198,7 +196,7 @@
                       <strong>CARLA KOJIMA</strong> /
                       JAPONÊS
                       <p>
-                         É de origem japonesa, sempre esteve ligada com a cultura nipônica e anualmente viaja para o Japão. Já trabalhou com Analista de Sistemas para empresas japonesas.
+                         É de origem japonesa, sempre esteve ligada com a cultura nipônica e anualmente viaja para o Japão. Já trabalhou como Analista de Sistemas para empresas japonesas.
                       </p>
                       <p>
 

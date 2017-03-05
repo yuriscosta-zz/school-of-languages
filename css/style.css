@@ -12,7 +12,7 @@ body{
 }
 
 * {
-     text-shadow: 0 1px 1px rgba(255,255,255,.3);
+     text-shadow: none !important;
 }
 
 p{line-height: 24px}
@@ -40,7 +40,8 @@ HEADER ROW STYLE
 #header-row .navbar{margin:10px 0 0 0;}
 
 #header-row .navbar .navbar-inner{
-	border:none;
+	text-align: center;
+	border: none;
 	box-shadow: none;
 	margin: 0;
 	background: transparent;
@@ -49,10 +50,31 @@ HEADER ROW STYLE
 #header-row .navbar .navbar-inner ul.nav > li > a{
 	box-shadow: none;
 	background: transparent;
-	color: #0088cc;
+	color: black;
 }
+
+.navbar-inner {
+	margin-left: -5%;
+}
+
+div.span9 {
+	margin-left: -5%;
+}
+
+div.span3 {
+	margin: 0;
+}
+
+#header-row .navbar .navbar-inner ul.nav {
+	width: 70%;
+}
+
+#header-row .navbar .navbar-inner ul.nav > li {
+	width: 25%;
+}
+
 #header-row .navbar .navbar-inner ul.nav li.active a{
-	color: #333;
+	border-bottom: 3px solid black;
 }
 
 
@@ -250,22 +272,23 @@ margin-top:40px;
    font-style: italic;
 }
 
-.submit {
-	background: #2ecc71;
-	color: white;
+.about-text {
+	text-align: justify;
+	font-size: 20px;
 }
 
-.submit:hover {
-	background: #27ae60;
-	color: #ecf0f1;
+#li-home {
+	background: #F7E967;
 }
 
-.reset {
-	background: #e74c3c;
-	color: white;
+#li-about {
+	background: #FF5764;
 }
 
-.reset:hover {
-	background: #c0392b;
-	color: #ecf0f1;
+#li-service {
+	background: #27F4BE;
+}
+
+#li-contact {
+	background: #7FAAD4;
 }
